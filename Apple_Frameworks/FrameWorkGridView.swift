@@ -17,31 +17,33 @@ let columns = [
 
 struct FrameWorkGridView: View {
     var body: some View {
-        ZStack {
-            Color(.systemBackground).ignoresSafeArea()
-            ScrollView {
-                LazyVGrid(columns: columns, spacing: 20) {
-                    ForEach(mockFrameworks) { framework in
-                        VStack {
-                            Image(framework.iconName) // Display the framework icon
-                                .resizable()
-                                .scaledToFit()
-                                .frame(width: 100, height: 100) // Adjust the size
-                            
-                            Text(framework.name) // Display the framework name
-                                .font(.headline)
-                                .scaledToFit()
-                                .minimumScaleFactor(0.6)
-                                .multilineTextAlignment(.center)
-                                .padding(.top, 5)
+        NavigationView {
+            ZStack {
+                Color(.systemBackground).ignoresSafeArea()
+                ScrollView {
+                    LazyVGrid(columns: columns, spacing: 20) {
+                        ForEach(mockFrameworks) { framework in
+                            VStack {
+                                Image(framework.iconName ?? "no-image") // Display the framework icon or no image icon
+                                    .resizable()
+                                    .scaledToFit()
+                                    .frame(width: 110, height: 110) // Adjust the size
+                                
+                                Text(framework.name) // Display the framework name
+                                    .font(.headline)
+                                    .scaledToFit()
+                                    .minimumScaleFactor(0.6)
+                                    .multilineTextAlignment(.center)
+                                    .padding(.top, 5)
+                            }
+                            .padding()
+                            .shadow(radius: 2)
                         }
-                        .padding()
-                        .shadow(radius: 2)
                     }
+                    .padding()
                 }
-                .padding()
+                .navigationTitle(" Apple Frameworks")
             }
-            .navigationTitle("Apple Frameworks")
         }
     }
 }

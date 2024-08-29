@@ -10,7 +10,7 @@ import Foundation
 struct Framework: Identifiable {
     let id = UUID()
     let name: String
-    let iconName: String
+    let iconName: String?
     let releaseYear: Int
     let URLString: String
     let description: String
