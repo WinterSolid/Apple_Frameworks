@@ -30,6 +30,8 @@ struct FrameWorkGridView: View {
                             
                             Text(framework.name) // Display the framework name
                                 .font(.headline)
+                                .scaledToFit()
+                                .minimumScaleFactor(0.6)
                                 .multilineTextAlignment(.center)
                                 .padding(.top, 5)
                         }
