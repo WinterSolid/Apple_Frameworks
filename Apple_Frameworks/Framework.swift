@@ -22,19 +22,25 @@ let mockFrameworks: [Framework] = [
               releaseYear: 2019,
               URLString: "https://developer.apple.com/xcode/swiftui/",
               description: "A modern framework for building user interfaces across all Apple platforms using a declarative Swift syntax."),
+    Framework(name: "SF Symbols",
+              iconName: "sf-symbols",
+              releaseYear: 2019,
+              URLString: "https://developer.apple.com/sf-symbols/",
+              description: "A library of over 3,300 configurable vector-based symbols you can use in your apps."),
     
-    Framework(name: "CoreData",
-              iconName: "coredata",
-              releaseYear: 2005,
-              URLString: "https://developer.apple.com/documentation/coredata",
-              description: "A framework for managing the model layer of applications and providing object graph management and persistence."),
+    
+    //    Framework(name: "CoreData",
+    //              iconName: "coredata",
+    //              releaseYear: 2005,
+    //              URLString: "https://developer.apple.com/documentation/coredata",
+    //              description: "A framework for managing the model layer of applications and providing object graph management and persistence."),
     
     Framework(name: "TestFlight",
-              iconName: "testflight",
+              iconName: "test-flight",
               releaseYear: 2014,
               URLString: "https://developer.apple.com/testflight/",
               description: "A framework for testing beta versions of your apps and collecting feedback from users before releasing them to the App Store."),
-
+    
     
     Framework(name: "ARKit",
               iconName: "arkit",
@@ -49,11 +55,11 @@ let mockFrameworks: [Framework] = [
               description: "A machine learning framework that allows integration of trained machine learning models into apps."),
     
     Framework(name: "CarPlay",
-                  iconName: "carplay",
-                  releaseYear: 2014,
-                  URLString: "https://developer.apple.com/documentation/carplay",
-                  description: "A framework for integrating iOS apps with the CarPlay system, providing a safer way to use iPhone while driving."),
-        
+              iconName: "carplay",
+              releaseYear: 2014,
+              URLString: "https://developer.apple.com/documentation/carplay",
+              description: "A framework for integrating iOS apps with the CarPlay system, providing a safer way to use iPhone while driving."),
+    
     
     Framework(name: "MapKit",
               iconName: "mapkit",
