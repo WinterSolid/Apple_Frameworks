@@ -13,6 +13,16 @@ struct FrameworkDetailView: View {
     
     var body: some View {
         VStack {
+            HStack{
+                Spacer()
+                Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/, label: {
+                    Image(systemName: "x.circle.fill")
+                        .resizable()
+                        .frame(width: 44,height: 44)
+                        .foregroundColor(Color(.label)).padding()
+                })
+            }
+            
             Image(framework.iconName ?? "no-image")
                 .resizable()
                 .scaledToFit()
@@ -20,25 +30,26 @@ struct FrameworkDetailView: View {
             
             Text(framework.name)
                 .font(.system(size: 80))
-                .padding(.bottom,20)
-            
+                .padding()
             Text(framework.description)
                 .font(.headline)
                 .multilineTextAlignment(.center)
-                .padding(.bottom,60)
-            
+                .padding()
+            Spacer()
             Button(action: {
                 if let url = URL(string: framework.URLString) {
                     openURL(url)
                 }
             }) {
                 Text("More about \(framework.name) at Apple")
-                    .font(.body)
+                    .font(.title2)
                     .padding(.all, 10)
                     .multilineTextAlignment(.center)
                     .foregroundColor(.white)
                     .background(.blue).cornerRadius(15)
+                
             }
+            Spacer()
         }
         .padding()
     }

@@ -42,7 +42,7 @@ struct FrameWorkGridView: View {
                     }
                     .padding()
                 }
-                .navigationTitle(" Apple Frameworks")
+                .navigationTitle("Apple Frameworks")
             }
         }
     }
