@@ -13,7 +13,15 @@ struct Framework: Identifiable {
     let iconName: String?
     let URLString: String
     let description: String
+    
+    static let templateFramework = [
+            Framework(name: "SiriKit",
+                iconName: "sirikit",
+                URLString: "https://developer.apple.com/sirikit/",
+                description: "Integrate your app with Siri to perform tasks, handle voice commands, and provide shortcuts."
+            )]
 }
+
 
 let mockFrameworks: [Framework] = [
     Framework(name: "SwiftUI",
