@@ -9,13 +9,16 @@ import SwiftUI
 
 struct FrameworkDetailView: View {
     let framework: Framework
-    @Environment(\.openURL) var openURL // Access the environment's openURL handler
+    // Environment variable to handle dismissal
+    @Environment(\.dismiss) var dismiss
+    // Access the environment's openURL handler
+    @Environment(\.openURL) var openURL
     
     var body: some View {
         VStack {
             HStack{
                 Spacer()
-                Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/, label: {
+                Button(action: {dismiss()}, label: {
                     Image(systemName: "x.circle.fill")
                         .resizable()
                         .frame(width: 44,height: 44)
