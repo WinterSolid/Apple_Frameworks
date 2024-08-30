@@ -9,6 +9,17 @@ A SwiftUI-based project that showcases various Apple frameworks, including their
 - Usage
 - Mock Data
 
+## Images
+### <img width="335" alt="AF__ss1" src="https://github.com/user-attachments/assets/83fbff70-5c6b-4553-9ea1-f330cdb764b2">
+### <img width="322" alt="AF_ss2" src="https://github.com/user-attachments/assets/047a5252-92a0-463a-8d04-a8edf6f4346b">
+### <img width="327" alt="AF_ss4" src="https://github.com/user-attachments/assets/c45da225-fea8-447c-aa1b-40127ac9b2a6">
+### <img width="319" alt="AF_ss3" src="https://github.com/user-attachments/assets/d6de90ff-46e1-49b8-b138-3a67dc84f5cc">
+### <img width="327" alt="AF_ss5" src="https://github.com/user-attachments/assets/e5bfe221-d096-47b9-b26a-06301eda03da">
+
+
+
+
+
 ## Features
 - Grid View of Frameworks: A scrollable grid view that dynamically displays Apple frameworks with their names, icons, and descriptions.
 - Dynamically Resizing Text: Framework names resize dynamically to fit within their designated space.
