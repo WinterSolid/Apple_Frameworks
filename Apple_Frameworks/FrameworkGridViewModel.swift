@@ -9,5 +9,4 @@ import SwiftUI
 
 final class FrameworkGridViewModel: ObservableObject{
     var selectedFrameWork: Framework?
-    
 }

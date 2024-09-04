@@ -50,7 +50,6 @@ struct FrameworkDetailView: View {
                     .multilineTextAlignment(.center)
                     .foregroundColor(.white)
                     .background(.blue).cornerRadius(15)
-                
             }
             Spacer()
         }
@@ -64,4 +63,3 @@ struct FrameworkDetailView: View {
 #Preview {
     FrameworkDetailView( framework: Framework.templateFramework[0])
 }
-                           

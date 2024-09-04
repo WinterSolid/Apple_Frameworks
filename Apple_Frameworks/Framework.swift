@@ -22,7 +22,6 @@ struct Framework: Identifiable {
             )]
 }
 
-
 let mockFrameworks: [Framework] = [
     Framework(name: "SwiftUI",
               iconName: "swiftui",
