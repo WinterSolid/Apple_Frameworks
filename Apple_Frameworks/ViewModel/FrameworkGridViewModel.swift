@@ -9,4 +9,10 @@ import SwiftUI
 
 final class FrameworkGridViewModel: ObservableObject{
     var selectedFrameWork: Framework?
+    
+    let columns = [
+        GridItem(.flexible()),
+        GridItem(.flexible()),
+        GridItem(.flexible())
+    ]
 }

@@ -9,19 +9,13 @@ import SwiftUI
 struct FrameworkGridView: View {
     @StateObject var viewModel = FrameworkGridViewModel()
     
-    let columns = [
-        GridItem(.flexible()),
-        GridItem(.flexible()),
-        GridItem(.flexible())
-    ]
-    
     var body: some View {
         NavigationView {
             ZStack {
                 Color(.systemBackground).ignoresSafeArea()
                 
                 ScrollView {
-                    LazyVGrid(columns: columns, spacing: 20) {
+                    LazyVGrid(columns: viewModel.columns, spacing: 20) {
                         ForEach(mockFrameworks) { framework in
                             NavigationLink(destination: FrameworkDetailView(framework: framework)) {
                                 VStack {
@@ -47,6 +41,9 @@ struct FrameworkGridView: View {
         }
     }
 }
+
+
+
 
 struct FrameworkGridView_Previews: PreviewProvider {
     static var previews: some View {

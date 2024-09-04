@@ -58,10 +58,9 @@
 			isa = PBXGroup;
 			children = (
 				3A780E542C8100E400FE7BF1 /* Apple_FrameworksApp.swift */,
-				3A780E642C81019400FE7BF1 /* Framework.swift */,
-				3A780E662C81409100FE7BF1 /* FrameworkDetailView.swift */,
-				3A780E682C82400100FE7BF1 /* FrameworkGridViewModel.swift */,
-				3A780E562C8100E400FE7BF1 /* FrameworkGridView.swift */,
+				3A780E6A2C88E3A300FE7BF1 /* Model */,
+				3A780E6C2C88E3EC00FE7BF1 /* View */,
+				3A780E6B2C88E3C700FE7BF1 /* ViewModel */,
 				3A780E582C8100E600FE7BF1 /* Assets.xcassets */,
 				3A780E5A2C8100E600FE7BF1 /* Preview Content */,
 			);
@@ -74,6 +73,31 @@
 				3A780E5B2C8100E600FE7BF1 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3A780E6A2C88E3A300FE7BF1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3A780E642C81019400FE7BF1 /* Framework.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3A780E6B2C88E3C700FE7BF1 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				3A780E682C82400100FE7BF1 /* FrameworkGridViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		3A780E6C2C88E3EC00FE7BF1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3A780E662C81409100FE7BF1 /* FrameworkDetailView.swift */,
+				3A780E562C8100E400FE7BF1 /* FrameworkGridView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
