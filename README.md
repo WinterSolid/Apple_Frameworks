@@ -12,7 +12,8 @@ A SwiftUI-based project that showcases various Apple frameworks, including their
 ## Images
 ### <img width="318" alt="AFV2-0" src="https://github.com/user-attachments/assets/ba154df4-d87b-4a47-a3f6-468a2765bfda">
 ### <img width="496" alt="AFV2-1" src="https://github.com/user-attachments/assets/7285abe2-4356-4d32-8e66-efa178cbecf0">
-### <img width="427" alt="Screenshot 2024-09-04 at 11 04 48 AM" src="https://github.com/user-attachments/assets/6a703498-4d1a-436d-8c01-bc7c61b92151">
+### <img width="277" alt="Screenshot 2024-09-04 at 1 14 55 PM" src="https://github.com/user-attachments/assets/5ee81654-312e-4ee8-8000-936e1c92b0a4">
+### <img width="284" alt="Screenshot 2024-09-04 at 1 15 10 PM" src="https://github.com/user-attachments/assets/8c8eb92b-e134-4ef7-b5ee-135ff74635e0">
 ### <img width="327" alt="AF_ss5" src="https://github.com/user-attachments/assets/e5bfe221-d096-47b9-b26a-06301eda03da">
 
 
