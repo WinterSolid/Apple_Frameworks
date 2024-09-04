@@ -34,26 +34,29 @@ struct FrameworkDetailView: View {
             Text(framework.name)
                 .font(.system(size: 80))
                 .padding()
+            
             Text(framework.description)
                 .font(.headline)
                 .multilineTextAlignment(.center)
                 .padding()
+            
             Spacer()
+            
             Button(action: {
                 if let url = URL(string: framework.URLString) {
                     openURL(url)
                 }
             }) {
-                Text("More about \(framework.name) at Apple")
-                    .font(.title2)
-                    .padding(.all, 10)
-                    .multilineTextAlignment(.center)
+                Text("Learn more: \(framework.name)")
+                    .padding()
                     .foregroundColor(.white)
-                    .background(.blue).cornerRadius(15)
+                    .background(Color.blue)
+                    .cornerRadius(20) 
             }
+            .buttonStyle(.borderedProminent)
+            .controlSize(.regular)
             Spacer()
         }
-        .padding()
     }
 }
 
