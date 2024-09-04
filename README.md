@@ -10,10 +10,9 @@ A SwiftUI-based project that showcases various Apple frameworks, including their
 - Mock Data
 
 ## Images
-### <img width="335" alt="AF__ss1" src="https://github.com/user-attachments/assets/83fbff70-5c6b-4553-9ea1-f330cdb764b2">
-### <img width="322" alt="AF_ss2" src="https://github.com/user-attachments/assets/047a5252-92a0-463a-8d04-a8edf6f4346b">
-### <img width="327" alt="AF_ss4" src="https://github.com/user-attachments/assets/c45da225-fea8-447c-aa1b-40127ac9b2a6">
-### <img width="319" alt="AF_ss3" src="https://github.com/user-attachments/assets/d6de90ff-46e1-49b8-b138-3a67dc84f5cc">
+### <img width="318" alt="AFV2-0" src="https://github.com/user-attachments/assets/ba154df4-d87b-4a47-a3f6-468a2765bfda">
+### <img width="496" alt="AFV2-1" src="https://github.com/user-attachments/assets/7285abe2-4356-4d32-8e66-efa178cbecf0">
+### <img width="427" alt="Screenshot 2024-09-04 at 11 04 48 AM" src="https://github.com/user-attachments/assets/6a703498-4d1a-436d-8c01-bc7c61b92151">
 ### <img width="327" alt="AF_ss5" src="https://github.com/user-attachments/assets/e5bfe221-d096-47b9-b26a-06301eda03da">
 
 
