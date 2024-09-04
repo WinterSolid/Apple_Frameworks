@@ -10,7 +10,7 @@ struct FrameworkGridView: View {
     @StateObject var viewModel = FrameworkGridViewModel()
     
     var body: some View {
-        NavigationView {
+        NavigationStack {
             ZStack {
                 Color(.systemBackground).ignoresSafeArea()
                 
@@ -37,6 +37,8 @@ struct FrameworkGridView: View {
                     .padding()
                 }
                 .navigationTitle("Apple Frameworks")
+                .navigationDestination(for: Framework.self){ framework in FrameworkDetailView(framework: framework)
+                }
             }
         }
     }

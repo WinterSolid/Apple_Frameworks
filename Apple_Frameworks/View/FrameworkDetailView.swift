@@ -16,15 +16,7 @@ struct FrameworkDetailView: View {
     
     var body: some View {
         VStack {
-            HStack{
-                Spacer()
-                Button(action: {dismiss()}, label: {
-                    Image(systemName: "house.circle")
-                        .resizable()
-                        .frame(width: 44,height: 44)
-                        .foregroundColor(Color(.label)).padding()
-                })
-            }
+           
             Spacer()
             Image(framework.iconName ?? "no-image")
                 .resizable()
