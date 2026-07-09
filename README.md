@@ -38,12 +38,6 @@ A SwiftUI-based project that showcases various Apple frameworks, including their
 - The project displays a grid of popular Apple frameworks using SwiftUI.
 - Scroll through the list to view the different frameworks.
 - Tap on the links to open the corresponding documentation in your browser.
-## Mock Data Example
-```
-let mockFrameworks: [Framework] = [
-    Framework(name: "SwiftUI", iconName: "swiftui", releaseYear: 2019, URLString: "https://developer.apple.com/xcode/swiftui/", description: "A modern framework for building user interfaces across all Apple platforms using a declarative Swift syntax.")
-]
-```
 
 ## license
 This is free and unencumbered software released into the public domain.
